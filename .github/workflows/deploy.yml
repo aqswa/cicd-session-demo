@@ -10,14 +10,7 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: ap-northeast-2
-  S3_BUCKET_NAME: blog1-github-actions-s3-bucket
-  CODE_DEPLOY_APPLICATION_NAME: blog-codedeploy-app
-  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: blog-codedeploy-deployment-group
   APPLICATION: ${{ secrets.APPLICATION }}
-
-permissions:
-  contents: read
 
 jobs:
   deploy:
