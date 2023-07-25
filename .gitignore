@@ -1,5 +1,6 @@
-*.yml
+docker-compose.yml
 src/main/resources/application-prod.yml
+src/main/resources/application.yml
 HELP.md
 .gradle
 build/
