@@ -12,6 +12,6 @@ public class SampleController {
     @GetMapping
     @ResponseStatus(value = HttpStatus.OK)
     public String create() {
-        return "sample";
+        return "samples";
     }
 }
