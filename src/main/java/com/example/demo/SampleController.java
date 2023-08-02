@@ -20,4 +20,10 @@ public class SampleController {
     public String create2() {
         return "samples";
     }
+
+    @GetMapping("/samples3")
+    @ResponseStatus(value = HttpStatus.OK)
+    public String create3() {
+        return "samples";
+    }
 }
